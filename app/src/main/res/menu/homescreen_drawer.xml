@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_face_black_24dp"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_addevent"
+            android:icon="@drawable/ic_menu_event_note_black_24dp"
+            android:title="@string/menu_myevent" />
+    </group>
+    <group
+        android:id="@+id/menu_contact_info"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_sendfeedback"
+            android:icon="@drawable/ic_menu_email_black_24dp"
+            android:title="@string/menu_feedback" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share_black_24dp"
+            android:title="@string/menu_share"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about_black_24dp"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_24dp"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>

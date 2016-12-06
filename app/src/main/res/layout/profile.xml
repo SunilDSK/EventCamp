@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.eventcamp.Profile">
+
+    <ImageView
+        android:id="@+id/profile_background"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/profile_background" />
+    <TextView
+        android:id="@+id/profile_username_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_background"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:text="Username"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/profile_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_username_head"
+        android:layout_marginLeft="30dp"
+        android:text="@string/usedname"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/profile_emailid_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_username"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:text="EmailID"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/profile_emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_emailid_head"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"
+        android:text="@string/usedname_emailid"/>
+    <TextView
+        android:id="@+id/profile_branch_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_emailid"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:text="Brnch"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/profile_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_branch_head"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"
+        android:text="ComputerScience and Engineering"/>
+    <TextView
+        android:id="@+id/profile_year_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_branch"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:text="Year"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/profile_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_year_head"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"
+        android:text="4th"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="branchs">
+        <item>Computer Science and Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Information Science and Engineering</item>
+        <item>Electrical and Electronic Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Electrical and Communication Engineering</item>
+        <item>Automobile Engineering</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="years">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+    </string-array>
+</resources>

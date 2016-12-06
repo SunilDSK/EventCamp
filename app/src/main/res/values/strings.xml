@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EventCamp</string>
+    <!--Login-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="orsignup">Or</string>
+
+    <!--HomeScreen-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="homescreen_upcomingevents">Upcoming Events</string>
+
+    <!--Navigation Drawer-->
+    <string name="usedname">Jennifer Wilson</string>
+    <string name="usedname_emailid">jenniferwilson@gmail.com</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Cards1-->
+    <string name="cardtitle">Terranaut</string>
+    <string name="cardsubtitle">Unleash the robo within</string>
+    <!--Card button-->
+    <string name="card_detail">Detail</string>
+
+
+    <!--Signup-->
+    <string name="fullname">Full name</string>
+    <string name="confirmpassword">Confirm password</string>
+    <string name="details">Fill details</string>
+    <string name="signup_details">Sign Up Details</string>
+    <string name="section_branch">Branch name</string>
+    <string name="section_prifilepic">Profile picture</string>
+    <string name="section_year">Year</string>
+    <string name="section_next">Next</string>
+
+    <!--Profile-->
+    <string name="events_attended">Events Attended</string>
+    <string name="events_upcoming">Upcoming Events</string>
+    <string name="events_upcoming_value">6</string>
+    <string name="events_attended_value">15</string>
+
+    <!--AddNewEvent-->
+    <string name="myevents_title">My Events</string>
+
+    <!--New Event-->
+    <string name="newevents_title">Add new events</string>
+    <string name="newevents_event">Event name</string>
+    <string name="newevents_eventsubtitle">Event subtitle</string>
+    <string name="newevents_date">DD/MM/YYYY</string>
+    <string name="newevents_venue">Event venue</string>
+    <string name="newevents_description">Description</string>
+    <string name="newevents_uploadimg">Event poster</string>
+    <string name="newevents_details">Event details</string>
+    <string name="newevents_submit">Create Event</string>
+
+    <!--Menu items-->
+    <string name="menu_profile">Profile</string>
+    <string name="menu_myevent">My event</string>
+    <string name="menu_feedback">Send feedback</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About</string>
+    <string name="menu_logout">Logout</string>
+</resources>

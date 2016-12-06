@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1006891710076",
+    "firebase_url": "https://eventcamp-54ef3.firebaseio.com",
+    "project_id": "eventcamp-54ef3",
+    "storage_bucket": "eventcamp-54ef3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006891710076:android:e1289b44a7d41287",
+        "android_client_info": {
+          "package_name": "com.example.eventcamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006891710076-dn7af9aqbvk6e1etbvr81dmsfbl6uvlf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventcamp",
+            "certificate_hash": "87007FCC68491F24E6E1D799EF23A36E4D473065"
+          }
+        },
+        {
+          "client_id": "1006891710076-283vo5ia7d9gaoanqutubrn1vthm2ies.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJGPVxNWEbJzokTehEhrcLJ-8QXOPlNBU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006891710076-283vo5ia7d9gaoanqutubrn1vthm2ies.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

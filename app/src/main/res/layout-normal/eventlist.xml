@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:elevation="6dp"
+    android:clipChildren="true"
+    android:clipToPadding="false"
+    card_view:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#9FA8DA">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        >
+
+        <TextView
+            android:id="@+id/eventList_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Web building competition"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/eventList_subtitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventList_title"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="Theme superheroes and villains" />
+
+        <TextView
+            android:id="@+id/eventList_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventList_subtitle"
+            android:paddingTop="10dp"
+            android:text="20/10/2016"
+            android:textColor="@color/cardview_dark_background" />
+
+        <ImageView
+            android:id="@+id/eventList_poster"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:elevation="18dp"
+            android:src="@drawable/vigyaan" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
