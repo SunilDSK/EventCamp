@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center"
-        android:textSize="20dp"
-        android:text="\tThis is an application user to manage the events conducted in the campus."
+        android:textSize="23sp"
+        android:text="This is an application used to manage the events conducted in the campus."
         />
 </RelativeLayout>
